@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.write("This app gives back the maximum of 3 numbers")
-st.header("Please input 3")
+st.header("Please input 3 numbers")
 
 number_1 = st.number_input("Enter the first number")
 number_2 = st.number_input("Enter the second number")
