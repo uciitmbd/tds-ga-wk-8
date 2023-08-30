@@ -10,4 +10,4 @@ number_3 = st.number_input("Enter the third number")
 numbers = [number_1, number_2, number_3]
 
 st.header("The max number is ")
-st.write(max(numbers))
+st.subheader(max(numbers))
